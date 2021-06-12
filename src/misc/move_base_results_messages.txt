@@ -1,0 +1,37 @@
+root@538c466f73a2:/home/workspace# rostopic echo /move_base/result   
+WARNING: no messages received and simulated time is active.
+Is /clock being published?
+header: 
+  seq: 1
+  stamp: 
+    secs: 359
+    nsecs: 130000000
+  frame_id: ''
+status: 
+  goal_id: 
+    stamp: 
+      secs: 339
+      nsecs: 328000000
+    id: "/move_base-2-339.328000000"
+  status: 3
+  text: "Goal reached."
+result: 
+
+---
+header: 
+  seq: 2
+  stamp: 
+    secs: 408
+    nsecs: 657000000
+  frame_id: ''
+status: 
+  goal_id: 
+    stamp: 
+      secs: 390
+      nsecs:  57000000
+    id: "/move_base-3-390.57000000"
+  status: 3
+  text: "Goal reached."
+result: 
+
+
